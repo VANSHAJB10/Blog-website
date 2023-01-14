@@ -1,3 +1,44 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap" rel="stylesheet">
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {                               /*these colours can be used in the whole website by calling them by variable names*/
+     --primary-text-color: #183b56;
+     --secondary-text-color: #577592;
+     --accent-color: #2294ed;
+     --accent-color-dark: #1d69a3;
+     --paddingg-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serf;
+    color: var( --primary-text-color);
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-text-color);
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
